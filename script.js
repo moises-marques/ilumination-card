@@ -23,8 +23,8 @@ const contactData = {
     },
     website: {
         icon: '🌐',
-        title: 'Website',
-        info: 'www.seusite.com.br',
+        title: 'Portifólio',
+        info: 'www.Portifólio.com.br',
         action: 'Visitar Site',
         link: 'https://39267c6f.portfo-moises.pages.dev/'
     },
