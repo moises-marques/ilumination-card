@@ -3,44 +3,44 @@ const contactData = {
     telefone: {
         icon: '📱',
         title: 'Telefone',
-        info: '+55 (92) 99999-9999',
+        info: '+55 (92) 98106-7373',
         action: 'Ligar Agora',
-        link: 'tel:+5592999999999'
+        link: 'tel:+5592981067373'
     },
     email: {
         icon: '📧',
         title: 'E-mail',
-        info: 'seuemail@exemplo.com',
+        info: 'mpm10433@gmail.com',
         action: 'Enviar E-mail',
-        link: 'mailto:seuemail@exemplo.com'
+        link: 'mailto:mpm10433@gmail.com'
     },
     whatsapp: {
         icon: '💬',
         title: 'WhatsApp',
-        info: '+55 (92) 99999-9999',
+        info: '+55 (92) 98106-7373',
         action: 'Abrir WhatsApp',
-        link: 'https://wa.me/5592999999999'
+        link: 'https://wa.me/5592981067373'
     },
     website: {
         icon: '🌐',
         title: 'Website',
         info: 'www.seusite.com.br',
         action: 'Visitar Site',
-        link: 'https://www.seusite.com.br'
+        link: 'https://39267c6f.portfo-moises.pages.dev/'
     },
     endereco: {
-        icon: '📍',
-        title: 'Endereço',
-        info: 'Rua Exemplo, 123 - Manaus, AM',
-        action: 'Ver no Mapa',
-        link: 'https://maps.google.com/?q=Manaus,AM'
+    icon: '📍',
+    title: 'Endereço',
+    info: 'Rua I 1, 15 - Nova Cidade, Manaus - AM',
+    action: 'Ver no Mapa',
+    link: 'https://www.google.com/maps/place/R.+I+1,+15+-+Nova+Cidade,+Manaus+-+AM,+69097-360'
     },
-    linkedin: {
+    servico: {
         icon: '💼',
         title: 'LinkedIn',
-        info: '/seu-perfil-linkedin',
+        info: '/Site/serviço',
         action: 'Conectar',
-        link: 'https://linkedin.com/in/seu-perfil'
+        link: 'https://b431f3cf.landing-apost-moises.pages.dev/'
     }
 };
 

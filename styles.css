@@ -32,16 +32,19 @@ body {
     overflow: hidden;
 }
 
-/* Bordas iluminadas */
+
+                                /* Bordas iluminadas */
+
 .glow-border {
     position: absolute;
     background: linear-gradient(90deg, 
-        #667eea 0%, 
-        #764ba2 33%, 
-        #f093fb 66%, 
-        #667eea 100%);
+        #00d4ff 0%, 
+        #0099ff 33%, 
+        #ff0040 66%, 
+        #00d4ff 100%);
     animation: glowAnimation 6s linear infinite;
     z-index: 1;
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.8);
 }
 
 .glow-border.top {
@@ -58,10 +61,10 @@ body {
     bottom: 0;
     width: 3px;
     background: linear-gradient(180deg, 
-        #667eea 0%, 
-        #764ba2 33%, 
-        #f093fb 66%, 
-        #667eea 100%);
+        #00d4ff 0%, 
+        #0099ff 33%, 
+        #ff0040 66%, 
+        #00d4ff 100%);
     background-size: 100% 300%;
 }
 
@@ -79,10 +82,10 @@ body {
     bottom: 0;
     width: 3px;
     background: linear-gradient(180deg, 
-        #667eea 0%, 
-        #764ba2 33%, 
-        #f093fb 66%, 
-        #667eea 100%);
+        #00d4ff 0%, 
+        #0099ff 33%, 
+        #ff0040 66%, 
+        #00d4ff 100%);
     background-size: 100% 300%;
 }
 
@@ -211,11 +214,11 @@ body {
 
 .info-btn:hover {
     transform: translateY(-3px);
-    border-color: rgba(102, 126, 234, 0.8);
+    border-color: rgba(255, 159, 64, 0.8);
     box-shadow: 
-        0 8px 25px rgba(102, 126, 234, 0.4),
+        0 8px 25px rgba(255, 159, 64, 0.5),
         inset 0 1px 0 rgba(255, 255, 255, 0.1);
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ff9f40 0%, #ffb74d 100%);
 }
 
 .info-btn:active {
