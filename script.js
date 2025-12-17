@@ -37,8 +37,8 @@ const contactData = {
     },
     servico: {
         icon: '💼',
-        title: 'LinkedIn',
-        info: '/Site/serviço',
+        title: 'Site',
+        info: 'serviço',
         action: 'Conectar',
         link: 'https://b431f3cf.landing-apost-moises.pages.dev/'
     }
