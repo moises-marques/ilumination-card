@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão Digital Interativo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="business-card">
+            <!-- Bordas iluminadas animadas -->
+            <div class="glow-border top"></div>
+            <div class="glow-border right"></div>
+            <div class="glow-border bottom"></div>
+            <div class="glow-border left"></div>
+            
+            <!-- Área da foto -->
+            <div class="photo-section">
+                <div class="photo-frame">
+                    <img src="https://via.placeholder.com/200x200/667eea/ffffff?text=Sua+Foto" alt="Foto de Perfil" class="profile-photo">
+                    <div class="photo-glow"></div>
+                </div>
+            </div>
+            
+            <!-- Informações principais -->
+            <div class="info-section">
+                <h1 class="name">Seu Nome Completo</h1>
+                <p class="title">Profissão / Cargo</p>
+            </div>
+            
+            <!-- Botões de informação -->
+            <div class="buttons-section">
+                <button class="info-btn" data-info="telefone">
+                    <span class="icon">📱</span>
+                    <span class="label">Telefone</span>
+                </button>
+                
+                <button class="info-btn" data-info="email">
+                    <span class="icon">📧</span>
+                    <span class="label">E-mail</span>
+                </button>
+                
+                <button class="info-btn" data-info="whatsapp">
+                    <span class="icon">💬</span>
+                    <span class="label">WhatsApp</span>
+                </button>
+                
+                <button class="info-btn" data-info="website">
+                    <span class="icon">🌐</span>
+                    <span class="label">Website</span>
+                </button>
+                
+                <button class="info-btn" data-info="endereco">
+                    <span class="icon">📍</span>
+                    <span class="label">Endereço</span>
+                </button>
+                
+                <button class="info-btn" data-info="linkedin">
+                    <span class="icon">💼</span>
+                    <span class="label">LinkedIn</span>
+                </button>
+            </div>
+            
+            <!-- Modal de informações -->
+            <div class="info-modal" id="infoModal">
+                <div class="modal-content">
+                    <button class="close-btn" id="closeModal">&times;</button>
+                    <div class="modal-icon" id="modalIcon"></div>
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalInfo"></p>
+                    <button class="action-btn" id="actionBtn"></button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Controles de cor -->
+        <div class="color-controls">
+            <h3>Personalizar Cores da Iluminação:</h3>
+            <div class="color-options">
+                <button class="color-btn" data-color="rainbow">🌈 Arco-íris</button>
+                <button class="color-btn" data-color="blue">💙 Azul</button>
+                <button class="color-btn" data-color="purple">💜 Roxo</button>
+                <button class="color-btn" data-color="green">💚 Verde</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
