@@ -21,12 +21,12 @@ const contactData = {
         action: 'Abrir WhatsApp',
         link: 'https://wa.me/5592981067373'
     },
-    website: {
+    facebook: {
         icon: '🌐',
-        title: 'Portifólio',
-        info: 'www.Portifólio.com.br',
-        action: 'Visitar Site',
-        link: 'https://39267c6f.portfo-moises.pages.dev/'
+        title: 'Facebook',
+        info: 'www.Facebook.com.br',
+        action: 'Visitar',
+        link: 'https://www.facebook.com/profile.php?id=61571595998228'
     },
     endereco: {
     icon: '📍',
@@ -35,12 +35,12 @@ const contactData = {
     action: 'Ver no Mapa',
     link: 'https://www.google.com/maps/place/R.+I+1,+15+-+Nova+Cidade,+Manaus+-+AM,+69097-360'
     },
-    servico: {
+    instagram: {
         icon: '💼',
-        title: 'Site',
+        title: 'instagram',
         info: 'serviço',
         action: 'Conectar',
-        link: 'https://b431f3cf.landing-apost-moises.pages.dev/'
+        link: 'https://www.instagram.com/desenvolvedor223/'
     }
 };
 
